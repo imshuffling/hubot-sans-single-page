@@ -42,10 +42,16 @@ h1 {
   padding-left: 3rem;
 }
 
+.top-section .right {
+  position: relative;
+}
+
 .top-section {
   display: flex;
   text-align: start;
   padding: 0;
+  width: 100%;
+  /* overflow: hidden; */
 }
 
 .top-section .left {
@@ -121,4 +127,44 @@ h1 {
 [data-img-to-show] {
   position: absolute;
   top: 20%;
+}
+
+#elements img {
+  width: 100%;
+}
+
+#elements figure {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+#ui1 {
+  top: -90px;
+  left: 15%;
+  margin-left: -15%;
+  width: 680px;
+  height: 364px;
+}
+
+#ui2 {
+  top: 28%;
+  left: -90px;
+  width: 615px;
+  height: 349px;
+}
+
+#ui3 {
+  right: -75px;
+  bottom: -100px;
+  width: 370px;
+  height: 590px;
+}
+
+#ui4 {
+  bottom: -200px;
+  width: 462px;
+  height: 515px;
 }
