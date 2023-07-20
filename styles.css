@@ -81,6 +81,9 @@ h1 {
   .top-section .left {
     text-align: center;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   body {
