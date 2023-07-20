@@ -51,7 +51,6 @@ h1 {
   text-align: start;
   padding: 0;
   width: 100%;
-  /* overflow: hidden; */
 }
 
 .top-section .left {
@@ -76,10 +75,12 @@ h1 {
 @media (width <= 1000px) {
   .top-section .right {
     display: none;
+    padding: 1rem;
   }
 
   .top-section .left {
     text-align: center;
+    padding: 1rem;
   }
 
   body {
@@ -87,7 +88,7 @@ h1 {
   }
 
   h1 {
-    font-size: 72px;
+    font-size: 45px;
   }
 
   .imgs > .top-section-img {
