@@ -20,6 +20,7 @@ body {
   color: #141616;
   background-color: #e6e9ea;
   font-size: 28px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -51,7 +52,6 @@ h1 {
   text-align: start;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .top-section .left {
