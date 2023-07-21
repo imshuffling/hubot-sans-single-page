@@ -51,6 +51,7 @@ h1 {
   text-align: start;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .top-section .left {
@@ -69,7 +70,7 @@ h1 {
   /* (oldVal - oldMin) * newRange / oldRange + newMin */
   --value: min(var(--scroll), 30) * 50 / 30;
   width: calc(50vw + 1vw * var(--value));
-  transform: translateY(calc(50% - 1% * var(--value)));
+  transform: translateY(calc(100% - 1% * var(--value)));
 }
 
 @media (width <= 1000px) {
@@ -84,6 +85,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
   }
 
   body {
